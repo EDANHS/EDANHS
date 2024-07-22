@@ -31,18 +31,17 @@
 
 <h3 align="left">👩‍💻  About Me</h3>
 
-<div style="display: flex; justify-content: space-between;">
-    <div style="text-align: left;">
-        <p>- 🇨🇱  I'm from Chile</p>
-        <p>- 💻 I am an undergraduate student at PUCV.</p>
-        <p>- 🏋️‍♂️ To clear my mind I go to the gym.</p>
-        <p>- ⛩ I love Asian culture, especially Japanese.</p>
-        <p>- ⏳ The phrase that defines me is, <em>'Don't regret your decisions.</em> </p>
-    </div>
-    <div style="text-align: right;">
-        <img id="Random_Quotes" height="200px" src="images/daily_quotes/Simon_Thomas.png" />
-    </div>
-</div>
+<p align="left">
+    - 🇨🇱  I'm from Chile<br>
+    - 💻 I am an undergraduate student at PUCV.<br>
+    - 🏋️‍♂️ To clear my mind I go to the gym.<br>
+    - ⛩ I love Asian culture, especially Japanese.<br>
+    - ⏳ The phrase that defines me is, <em>'Don't regret your decisions.'</em>
+</p>
+
+<p align="right">
+    <img id="Random_Quotes" height="200px" src="images/daily_quotes/Simon_Thomas.png" />
+</p>
 
 <h3 align="left">🔍 Areas of professional interest <h3>
 
