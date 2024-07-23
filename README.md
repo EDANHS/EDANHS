@@ -76,7 +76,7 @@
   <img src="images/icons/css3-original.svg" height="40" alt="Logo CSS"  />
   <img src="images/icons/eclipse-original.svg" height="40" alt="Logo Eclipse IDLE"  />
   <img src="images/icons/figma-original.svg" height="40" alt="Logo Figma"  />
-  <img src="images/icons/git-original-wordmark.svg" height="40" alt="Logo Git"  />
+  <img src="images/icons/git-original.svg" height="40" alt="Logo Git"  />
   <img src="images/icons/github-original-wordmark.svg" height="40" alt="Logo Github"  />
   <img src="images/icons/ionic-original-wordmark.svg" height="40" alt="Logo Ionic"  />
   <img src="images/icons/java-original-wordmark.svg" height="40" alt="Logo Java"  />
