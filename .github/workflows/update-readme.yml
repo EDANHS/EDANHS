@@ -2,7 +2,7 @@ name: Update README Daily
 
 on:
   schedule:
-    - cron: "9 15 * * *" # Ejecutar todos los días a las 2 AM UTC
+    - cron: "14 15 * * *" # Ejecutar todos los días a las 2 AM UTC
 
 jobs:
   update-readme:
@@ -10,10 +10,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3 # Actualizar a la última versión
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v4 # Actualizar a la última versión
+        uses: actions/setup-python@v4
         with:
           python-version: 3.x
 
@@ -25,11 +25,11 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.email 'your-email@example.com'
-          git config --global user.name 'Your Name'
+          git config --global user.email thomas.molina.s@mail.pucv.cl
+          git config --global user.name 'Thomas Molina'
           git add .
           commit_message="Update daily image on $(date +'%Y-%m-%d')"
           git commit -m "$commit_message" || echo "No changes to commit"
-          git push
+          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
