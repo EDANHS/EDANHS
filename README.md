@@ -1,6 +1,6 @@
 <h2 align="left">Hi 😉! My name is Thomas and I'm a Computer Science Engineer.</h2>
 
-<div style="text-align: center;">
+<div align="center">
     <img id="Random_Images" src="images/backgrounds/120651741_p22.png" height="400px" />
 </div>
 
@@ -31,18 +31,21 @@
 
 <h3 align="left">👩‍💻  About Me</h3>
 
-<div style="display: flex; justify-content: space-between;">
-    <div style="text-align: left;">
-        <p>- 🇨🇱  I'm from Chile</p>
-        <p>- 💻 I am an undergraduate student at PUCV.</p>
-        <p>- 🏋️‍♂️ To clear my mind I go to the gym.</p>
-        <p>- ⛩ I love Asian culture, especially Japanese.</p>
-        <p>- ⏳ The phrase that defines me is, <em>'Don't regret your decisions.</em> </p>
-    </div>
-    <div style="text-align: right;">
-        <img id="Random_Quotes" height="200px" src="images/daily_quotes/Simon_Thomas.png" />
-    </div>
-</div>
+<table>
+  <tr>
+    <td style="text-align: left; vertical-align: top;">
+      <p>- 🇨🇱  I'm from Chile</p>
+      <p>- 💻 I am an undergraduate student at PUCV.</p>
+      <p>- 🏋️‍♂️ To clear my mind I go to the gym.</p>
+      <p>- ⛩ I love Asian culture, especially Japanese.</p>
+      <p>- ⏳ The phrase that defines me is, <em>'Don't regret your decisions.'</em> </p>
+    </td>
+    <td style="text-align: right; vertical-align: top;">
+      <img id="Random_Quotes" height="200px" src="images/daily_quotes/Simon_Thomas.png" />
+    </td>
+  </tr>
+</table>
+
 
 <h3 align="left">🔍 Areas of professional interest <h3>
 
@@ -106,7 +109,7 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/edanhs/edanhs/output/snake.svg" alt="Snake animation" />
 
 ###
 
