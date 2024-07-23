@@ -1,5 +1,6 @@
 import os
 import random
+from datetime import datetime
 
 def get_random_image(images_dir: str):
     images = os.listdir(images_dir)
@@ -28,3 +29,10 @@ if __name__ == "__main__":
 
     daily_quoutes = get_random_image(images_dir='images/daily_quotes')
     update_readme(image_filename=f"./images/daily_quotes/{daily_quoutes}", img_id='Random_Quoutes', height=200)
+
+    os.system("git config --global user.email thomas.molina.s@mail.pucv.cl")
+    os.system("git config --global user.name Thomas Molina")
+    os.system("git add .")
+    commit_message = f"Update daily image on {datetime.now().strftime('%Y-%m-%d')}"
+    os.system(f"git commit -m \"{commit_message}\"")
+    os.system("git push")
