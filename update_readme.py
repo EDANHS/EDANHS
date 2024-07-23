@@ -9,11 +9,11 @@ def update_readme(image_filename: str, img_id: str, height:int):
     readme_path = 'README.md'
     
     # Leer el contenido actual del README.md
-    with open(readme_path, 'r') as readme_file:
+    with open(readme_path, 'r', encoding='utf-8') as readme_file:
         lines = readme_file.readlines()
     
     # Buscar y reemplazar la línea de la imagen
-    with open(readme_path, 'w') as readme_file:
+    with open(readme_path, 'w', encoding='utf-8') as readme_file:
         for line in lines:
             if f'id="{img_id}"' in line:
                 # Reemplaza la línea con la nueva imagen
@@ -24,7 +24,7 @@ def update_readme(image_filename: str, img_id: str, height:int):
 
 if __name__ == "__main__":
     random_image = get_random_image(images_dir='images/backgrounds')
-    update_readme(image_filename=random_image, img_id='Random_Images', height=400)
+    update_readme(image_filename=f"./images/backgrounds/{random_image}", img_id='Random_Images', height=400)
 
     daily_quoutes = get_random_image(images_dir='images/daily_quotes')
-    update_readme(image_filename=daily_quoutes, img_id='Random_Quoutes', height=200)
+    update_readme(image_filename=f"./images/daily_quotes/{daily_quoutes}", img_id='Random_Quoutes', height=200)
