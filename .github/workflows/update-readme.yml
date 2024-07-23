@@ -2,7 +2,7 @@ name: Update README Daily
 
 on:
   schedule:
-    - cron: "14 15 * * *" # Ejecutar todos los días a las 2 AM UTC
+    - cron: "18 15 * * *" # Ejecutar todos los días a las 2 AM UTC
 
 jobs:
   update-readme:
@@ -10,10 +10,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@main
+        with:
+          fetch-depth: 1
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v2
         with:
           python-version: 3.x
 
