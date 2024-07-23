@@ -2,7 +2,7 @@ name: Update README with Random Image
 
 on:
   schedule:
-    - cron: "51 1 * * *" # Esto se ejecutará todos los días a la medianoche UTC
+    - cron: "56 13 * * *" # Esto se ejecutará todos los días a la medianoche UTC
   workflow_dispatch:
 
 jobs:
