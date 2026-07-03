@@ -1,7 +1,7 @@
 <h2 align="left">Hi 😉! My name is Thomas and I'm a Computer Science Engineer.</h2>
 
 <div align="center">
-    <img id="Random_Images" src="./images/backgrounds/90623511_p0.jpg" height="400px" />
+    <img id="Random_Images" src="./images/backgrounds/119573704_p2.png" height="400px" />
 </div>
 
 <br>
